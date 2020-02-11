@@ -1,7 +1,7 @@
 # Stream Widget for League of Legends' Ranking 
 A stream widget that displays your ranking on League of Legends 5x5 solo queue and its emblem.
 
-<img src="assets/elos.jpg" width="500px" />
+<img src="./assets/elos.jpeg" width="500px" />
 
 ## Running the web server
 - clone or download this repository
