@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STREAM_ELO</title>
+    <style> 
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+        *{ margin:0; padding:0;}
+        main{
+            display: block;
+            width: 280px;
+            text-align: center;
+            font-family: 'Open Sans', arial, sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            color: #999;
+        }
+        .tier{
+            text-transform: uppercase;
+        }
+        .tier, .rank, .lp{
+            /*text-shadow: 0 0 3px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 15px #FF1177, 0 0 18px #FF1177, 0 0 20px #FF1177;*/
+        }
+        .lp{ color: #999}
+    </style>
+</head>
+<body>
+    <main>
+        <img src="/static/emblems/{{tier}}.png" width="200px" />
+        <p><span class="tier">{{tier}}</span> <span class="rank">{{rank}}</span></p>
+        <p class="lp">{{leaguePoints}}</p>
+    </main>
+    
+</body>
+</html>
